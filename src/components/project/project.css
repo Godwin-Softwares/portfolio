@@ -1,0 +1,25 @@
+.p{
+    width: 30%;
+    height: 40vh;
+    border: 2px solid rgb(243, 242, 242);
+    margin: 20px 10px;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+
+}
+.p-browser{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 242, 242);
+}
+.p-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 3px;
+}
+.p-img{
+    width: 100%;
+}
