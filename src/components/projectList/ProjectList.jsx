@@ -9,7 +9,8 @@ const ProjectList = () => {
         <div className="pl">
             <div className="pl-text">
                 <h1 className="pl-title">Create & Inspire. It's Godwin</h1>
-                <p className="pl-desc"> In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+                <p className="pl-desc"> We have built and deployed a number of amazing projects to 
+                clients and organisation. Kindly have a tour on some of our existing projects. 
                 </p>
             </div>
             <div className='pl-list'>

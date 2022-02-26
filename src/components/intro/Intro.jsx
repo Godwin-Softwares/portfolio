@@ -1,6 +1,6 @@
 import React from 'react';
 import "./intro.css"
-import me from "../../img/pic.png"
+import me from "../../img/pic2.png"
 
 const intro = () => {
   return (
@@ -20,10 +20,11 @@ const intro = () => {
               </div>
             </div>
             <div className="i-desc">
-              I am a professional Software Developer, vastly inclined in Mobile App Development with an exceptional expertise in website development coupled with Unit testing, skilled in DevOp technology and Frontend UI/UX.
+              An Experienced Software Engineer, vastly inclined in Web App Development with an exceptional expertise in Mobile App development and IoT, skilled in DevOp technology and Frontend UI/UX.
             </div>
+
             <div className='i-button'>
-              <button id="#c">Rule Your World</button>
+              <button id="#c">Start a Project</button>
             </div>
           </div>
 

@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext} from 'react';
 import "./about.css"
 import work from '../../img/work.jpg'
 import award from '../../img/award.png'
+import { ThemeContext } from "../../context";
 
 const About = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
   <div>
       <div className="a">
@@ -16,17 +19,17 @@ const About = () => {
             <div className="a-right">
              <div className="a-right-wrapper">
              <h1 className='a-title'>About Me</h1>
-                <p className='a-sub'>used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                <p className='a-sub'>Creative software engineer with 6+ years of experience in software engineering with a hands-on, high energy approach, well-developed skills in Agile methodology, and an unapologetically user focused philosophy.</p>
                 <p className="a-desc">
-                In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy isplaceholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. 
+                Developed several ecommerce web apps, social networking web apps, Logistic apps, Food delivery apps using Laravel framework , python Django framework and MERN stack technology , in addition to building auto garage management system, school management system and result management system apps among others, not excluding hands on mobile apps with React Native and Flutter technology which is captured on my portfolio and github account respectively.
                 </p>
                 
                 <div className="a-award">
                   <img src={award} alt="" className='a-award-img'/>
                   <div className="a-award-text">
-                    <h3 className="a-award-title">National Award</h3>
+                    <h3 style={{color:darkMode && 'white'}} className="a-award-title">Software Engineers Award</h3>
                     <p className='a-award-desc'>
-                    on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is
+                    Award for contribution to development and deployment of highly efficient and robust softwares to organisations around the state and nation.
                     </p>
                   </div>
                 </div>
