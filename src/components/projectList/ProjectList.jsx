@@ -10,7 +10,7 @@ const ProjectList = () => {
             <div className="pl-text">
                 <h1 className="pl-title">Create & Inspire. It's Godwin</h1>
                 <p className="pl-desc"> We have built and deployed a number of amazing projects to 
-                clients and organisation. Kindly have a tour on some of our existing projects. 
+                clients and organisations. Kindly have a tour on some of our existing projects. 
                 </p>
             </div>
             <div className='pl-list'>

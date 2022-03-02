@@ -25,3 +25,10 @@
     cursor: pointer;
     right: 0px;
 }
+
+@media screen and (max-width:480px){
+    .t{
+        top:0px;
+        right:0px;
+    }
+}

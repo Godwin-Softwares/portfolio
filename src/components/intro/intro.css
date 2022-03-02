@@ -37,6 +37,7 @@
 .i-title-wrapper{
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
+    
 }
 @keyframes move{
     25%{
@@ -99,4 +100,36 @@
     top: 0;
     right: 0;
     background-color: blueviolet;
+}
+
+@media screen and (max-width:480px){
+    .i{
+        flex-direction: column;
+    }
+
+    .i-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .i-desc{
+        display: none;
+    }
+
+    .i-button {
+        margin-top: 80px;
+    }
+
+    .i-title-item{
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .i-title{
+        margin-top: 40px;
+        
+    }
 }
