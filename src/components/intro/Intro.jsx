@@ -23,8 +23,10 @@ const intro = () => {
               An Experienced Software Engineer, vastly inclined in Web App Development with an exceptional expertise in Mobile App development and IoT, skilled in DevOp technology and Frontend UI/UX.
             </div>
 
+           
+
             <div className='i-button'>
-              <button id="#c">Start a Project</button>
+             <a href="#contact">Start a Project</a>
             </div>
           </div>
 

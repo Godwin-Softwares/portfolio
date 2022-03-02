@@ -28,7 +28,7 @@ const Contact = () => {
 
     }
   return (
-  <div className='c'>
+  <div className='c' id="contact">
       <div className="c-bg"></div>
       <div className="c-wrapper">
           <div className="c-left">
@@ -52,10 +52,10 @@ const Contact = () => {
           </div>
           <div className="c-right">
               <p className="c-desc">
-                  <b>What's your story?</b> Get in touch, always freelancing once the right project comes along 
+                  <b>What's your Project?</b> Get in touch, always ready to deliver that Project in a professional and timely manner. 
               </p>
               <form ref={formRef} onSubmit={handleSubmit}>
-                  <input style={{backgroundColor:darkMode && 'darkgray'}}  type="text" name="user_name" placeholder="username"/>
+                  <input style={{backgroundColor:darkMode && 'darkgray'}}  type="text" name="user_name" placeholder="name"/>
                   <input style={{backgroundColor:darkMode && 'darkgray'}} type="text" name="user_subject" placeholder="Subject"/>
                   <input style={{backgroundColor:darkMode && 'darkgray'}} type="text" name="user_email" placeholder="email"/>
                   <textarea style={{backgroundColor:darkMode && 'darkgray'}}  rows="5" placeholder="Message"/>

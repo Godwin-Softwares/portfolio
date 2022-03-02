@@ -40,9 +40,10 @@
 }
 .c-desc{
     font-weight: 300;
+    line-height: 30px;
 }
 form{
-    margin: 50px 0px;
+    margin: 20px 0px 50px 0px;
 }
 input{
     width: 50%;
