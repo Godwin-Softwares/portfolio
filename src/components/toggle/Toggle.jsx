@@ -1,6 +1,6 @@
 import React, {useContext}from 'react';
 import "./toggle.css";
-import sun from  "../../img/circle.png";
+import sun from  "../../img/moon.png";
 import  moon from "../../img/right.png";
 import { ThemeContext } from '../../context';
 // import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
