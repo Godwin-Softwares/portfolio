@@ -6,12 +6,14 @@ export const projects = [
     {
         id:1,
         img: me1,
-        link: "https://loopinfosol.in/themeforest/ekka-html-v31/ekka-html/product-left-sidebar.html"
+        link: "http://ghorizongroup.netlify.app"
+        //link: "https://loopinfosol.in/themeforest/ekka-html-v31/ekka-html/product-left-sidebar.html"
     },
     {
         id:2,
         img: me2,
-        link: "https://gravityinfotech.net/project/e-com/admin"
+        link: "http://ghorizongroup.netlify.app"
+        //link: "https://gravityinfotech.net/project/e-com/admin"
     },
     {
         id:3,
@@ -21,13 +23,15 @@ export const projects = [
     {
         id:4,
         img: me2,
-        link: "https://gravityinfotech.net/project/e-com/admin"
+        link: "http://ghorizongroup.netlify.app"
+        //link: "https://gravityinfotech.net/project/e-com/admin"
         
     },
     {
         id:5,
         img: me1,
-        link: "https://loopinfosol.in/themeforest/ekka-html-v31/ekka-html/product-left-sidebar.html"
+        link: "http://ghorizongroup.netlify.app"
+        //link: "https://loopinfosol.in/themeforest/ekka-html-v31/ekka-html/product-left-sidebar.html"
     },
     {
         id:6,
